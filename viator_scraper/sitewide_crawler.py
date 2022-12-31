@@ -148,3 +148,4 @@ for attraction in attractions['Thailand']:
 
 with open('json_dumps/complete_raw_data.json', 'w') as outfile:
     json.dump(attractions, outfile,indent=2)
+

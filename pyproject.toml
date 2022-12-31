@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "viator-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Robert Joseph <roberttomjoseph@gmail.com>"]
+readme = "README.md"
+packages = [{include = "viator_scraper"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.28.1"
+bs4 = "^0.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.15.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
